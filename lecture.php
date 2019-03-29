@@ -1,6 +1,6 @@
 
    <?php
-//FAB
+//FABRICE
    $reponse = $bdd->query('SELECT * FROM chat ORDER BY id DESC LIMIT 20');
    while ($donnees = $reponse->fetch())
    {
